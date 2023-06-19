@@ -470,7 +470,15 @@ h2 {
 .copyright span {
   color: red;
 }
-
+.tiktok{
+  text-align: center;
+}
+.twitter{
+  text-align: center;
+}
+.tweets a{
+  color: #FFAC0C;
+}
 @media (max-width: 991px) {
   .menu {
     position: fixed;
@@ -584,6 +592,23 @@ h2 {
   height: 300px;
   width: 550px;
 }
+.tiktokplan{
+   margin-left: 70px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.tiktokvideo{
+  text-align: center;
+  padding-right: 80px;
+}
+.tiktokvideo video{
+  box-shadow: 0px 0px 10px #4294C3;
+}
+.tiktokvideo h4{
+  font-size: medium;
+}
 }
 
 @media (max-width: 810px) {
@@ -650,6 +675,21 @@ font-size: small;
   height: 200px;
   box-shadow: 0px 0px 10px #4294C3;
   width: 350px;
+}
+.tiktokplan{
+   margin-left: 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tiktokvideo{
+  text-align: center;
+  padding-top: 100px;
+  padding-right: 0px;
+}
+.tiktokvideo video{
+  box-shadow: 0px 0px 10px #4294C3;
 }
 }
 
