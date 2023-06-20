@@ -62,7 +62,10 @@ ul li a:hover {
   border-radius: 2rem;
   transition: all 0.5s;
 }
-
+ul li a:not(:hover) {
+  color: #fff;
+  transition: all 0.5s;
+}
 .active-btn {
   background: #4abe85;
   color: #fff;
