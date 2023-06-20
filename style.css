@@ -57,7 +57,9 @@ ul li a {
 }
 
 ul li a:hover {
-  color: #fe8040;
+  color: #fff;
+  background: #fe8040;
+  border-radius: 2rem;
 }
 
 .active-btn {
