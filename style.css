@@ -331,9 +331,9 @@ h2 {
   margin-left: 50px;
   
 }
-.btnsr:hover {
-  background: #326085;
-  color: #FFFFFF;
+.btnsr:hover{
+  background: #FFFFFF;
+  color: #FFB811;
   transition: 0.5s;
 }
 
