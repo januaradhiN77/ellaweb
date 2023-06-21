@@ -315,7 +315,7 @@ h2 {
 }
 .btnsr {
   background: #FFB811;
-  margin-left: 80px;
+  margin-left: 0px;
   display: inline-block;
   padding: 10px 20px;
   width: 150px;
@@ -328,7 +328,7 @@ h2 {
 }
 .showroom a{
   text-align: center;
-  margin-left: 50px;
+  margin-left: 0px;
   
 }
 .btnsr:hover{
@@ -401,9 +401,15 @@ h2 {
    text-align: center;
    font-size: large;
 }
+.showroom{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+}
 .showroom span{
    color: #CECECE6E;
-   margin-left: 49px;
+   text-align: center;
 }
 .showroom h3{
    text-align: center;
