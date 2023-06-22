@@ -75,7 +75,8 @@ ul li ul.dropdown li{
    display: block;
 }
 ul li ul.dropdown{
-   width: 90%;
+   width: 50%;
+   height: 50%;
    margin-left: -50px;
    transition: all 0.5s;
    border-radius: 15px;
@@ -86,7 +87,7 @@ ul li ul.dropdown{
 }
 ul li a:hover{
    transition: all 1s;
-   background: #fe8040;
+   background: #FFAC0C;
 }
 ul li:hover ul.dropdown{
    display: block;
