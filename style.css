@@ -85,6 +85,9 @@ ul li ul.dropdown{
    z-index: 999;
    display: none;
 }
+ul li ul.dropdown a{
+    font-size: 2rem;
+}
 ul li a:hover{
    transition: all 1s;
    background: #FFAC0C;
