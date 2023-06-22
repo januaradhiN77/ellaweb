@@ -85,6 +85,10 @@ ul li ul.dropdown{
    z-index: 999;
    display: none;
 }
+.dropdown{
+   justify-content: center;
+   align-items: center;
+}
 ul li ul.dropdown a{
     font-size: 1rem;
     margin-top: 20px;
