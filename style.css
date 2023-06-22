@@ -76,9 +76,9 @@ ul li ul.dropdown li{
 }
 ul li ul.dropdown{
    width: 90%;
+   margin-left: -50px;
    transition: all 0.5s;
    border-radius: 15px;
-   text-align: center;
    background: #fe8040;
    position: absolute;
    z-index: 999;
