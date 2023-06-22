@@ -75,7 +75,7 @@ ul li ul.dropdown li{
    display: block;
 }
 ul li ul.dropdown{
-   width: 10%;
+   width: 30%;
    height: 500%;
    margin-left: -50px;
    transition: all 0.5s;
