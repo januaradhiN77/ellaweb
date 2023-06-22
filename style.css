@@ -299,11 +299,11 @@ h2 {
 .instagram .ig-container .ig-box:hover .textig {
   top: 0;
 }
-.textig h2{
+.textig h1{
   background: #FFDF127A;
   border-radius: 10px;
 }
-.ig-box .textig h2 {
+.ig-box .textig h1 {
   font-size: 1.2rem;
   color: #FFFFFF;
 }
