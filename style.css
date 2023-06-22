@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -9,6 +9,9 @@
   list-style: none;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+}
+:root{
+  --h2-font: 2rem;
 }
 
 body,
@@ -66,40 +69,7 @@ ul li a:not(:hover) {
   color: #fff;
   transition: all 0.5s;
 }
-.li ul.dropdown{
-  display: flex;
-  justify-content: center;
-   align-items: center;
-}
-ul li ul.dropdown li{
-   display: block;
-}
-ul li ul.dropdown{
-   width: 30%;
-   height: 350%;
-   margin-left: -50px;
-   transition: all 0.5s;
-   border-radius: 15px;
-   background: #fe8040;
-   position: absolute;
-   z-index: 999;
-   display: none;
-}
-.dropdown{
-   justify-content: center;
-   align-items: center;
-}
-ul li ul.dropdown a{
-    font-size: 1rem;
-    margin-top: 20px;
-}
-ul li a:hover{
-   transition: all 1s;
-   background: #FFAC0C;
-}
-ul li:hover ul.dropdown{
-   display: block;
-}
+
 .active-btn {
   background: #4abe85;
   color: #fff;
@@ -202,9 +172,6 @@ h2 {
 .twitter-timeline{
   box-shadow: 0px 0px 10px #4294C3;
 }
-.ig-box{
-  box-shadow: 0px 0px 10px #4294C3;
-}
 /* Heeading */
 .heading {
   display: flex;
@@ -276,63 +243,76 @@ h2 {
   font-size: 0.9rem;
   font-weight: 300;
 }
-
-/* Team */
-.ig-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  margin: 50px 0 0 0;
-  justify-content: center;
-  align-items: center;
-}
-
-.ig-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.headig {
   text-align: center;
 }
-.tombol {
-
-  display: flex;
-
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+.headig p {
+  text-transform: uppercase;
+  font-weight: 500; 
 }
-
-.ig-box img {
-  height: 150px;
-  width: 150px;
-  object-fit: contain;
-  border-radius: 5px;
-  margin-bottom: 1em;
+.headig h2 {
+  font-size: var(--h2-font);
+  font-family: "Poppins", sans-serif;
+}
+.instagram .ig-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.instagram .ig-container .ig-box {
+  position: relative;
+  height: 420px;
+  flex: 1 1 18rem;
   overflow: hidden;
+  box-shadow: 0px 0px 5px #000000;
+}
+.instagram .ig-container .ig-box:hover{
+  box-shadow: 0px 0px 15px #FFDE0D;
+  transition: 1s;
+  border-radius: 15px;
+}
+.instagram .ig-container .ig-box:not(:hover){
+  box-shadow: 0px 0px -10px #FFDE0D;
+  transition: 1s;
+  border-radius: 15px;
+}
+.instagram .ig-container .ig-box img {
+  width: 100%;
+  border-radius: 15px;
+  height: 100%;
+  object-fit: cover;
+  
+}
+.instagram .ig-container .ig-box .textig {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+  padding-top: 8rem;
+  background: #00000069;
+  transition: 0.5s;
+}
+.instagram .ig-container .ig-box:hover .textig {
+  top: 0;
+}
+.textig h2{
+  background: #FFDF127A;
+  border-radius: 10px;
+}
+.ig-box .textig h2 {
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+.ig-box .textig p {
+  margin: 0.4rem 0 1rem;
+  color: #FFFFFF;
 }
 
-.ig-box img:hover {
-  transform: scale(1.1);
-  transition: all 1s ease;
-  box-shadow: 0px 0px 10px #4294C3;
-}
-.ig-box img:not(:hover){
-  transform: scale(1);
-  transition: all 1s ease;
-  box-shadow: 0px 0px -7px #4294C3;
-}
 
-.ig-box h1{
-  font-size: 1.1rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-
-.ig-box p {
-  font-size: 0.9rem;
-  font-weight: 300;
-  margin: 0.5em 0 0.5em;
-}
 
 
 .btn {
@@ -619,10 +599,6 @@ h2 {
     width: 350px;
     height: 400px;
   }
-  .ig-box img{
-    width: 150px;
-    height: 150px;
-  }
     .home-content {
    align-items: center;
    text-align: center;
@@ -677,18 +653,7 @@ h2 {
 .tiktokvideo h4{
   font-size: medium;
 }
-ul li ul.dropdown{
 
-   width: 90%;
-   transition: all 0.5s;
-   border-radius: 15px;
-   margin-left: -10px;
-   text-align: center;
-   background: #fe8040;
-   position: absolute;
-   z-index: 999;
-   display: none;
-}
 }
 
 @media (max-width: 810px) {
@@ -711,10 +676,7 @@ ul li ul.dropdown{
   .email-box {
     width: 304px;
   }
-    .ig-box img{
-    width: 150px;
-    height: 150px;
-  }
+
   .home-content {
    align-items: center;
    text-align: center;
@@ -771,16 +733,7 @@ font-size: small;
 .tiktokvideo video{
   box-shadow: 0px 0px 10px #4294C3;
 }
-ul li ul.dropdown {
-        width: 90%;
-        border-radius: 15px;
-        margin-left: -30px;
-        text-align: center;
-        background: #fe8040;
-        position: absolute;
-        z-index: 999;
-        display: none;
-}
+
 }
 
 @media (max-width: 696px) {
