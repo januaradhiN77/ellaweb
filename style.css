@@ -66,6 +66,32 @@ ul li a:not(:hover) {
   color: #fff;
   transition: all 0.5s;
 }
+.li ul.dropdown{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+}
+ul li ul.dropdown li{
+   display: block;
+}
+ul li ul.dropdown{
+   width: 90%;
+   transition: all 0.5s;
+   border-radius: 15px;
+   margin-left: -30px;
+   text-align: center;
+   background: #fe8040;
+   position: absolute;
+   z-index: 999;
+   display: none;
+}
+ul li a:hover{
+   transition: all 1s;
+   background: #fe8040;
+}
+ul li:hover ul.dropdown{
+   display: block;
+}
 .active-btn {
   background: #4abe85;
   color: #fff;
@@ -643,6 +669,18 @@ h2 {
 .tiktokvideo h4{
   font-size: medium;
 }
+ul li ul.dropdown{
+
+   width: 90%;
+   transition: all 0.5s;
+   border-radius: 15px;
+   margin-left: -10px;
+   text-align: center;
+   background: #fe8040;
+   position: absolute;
+   z-index: 999;
+   display: none;
+}
 }
 
 @media (max-width: 810px) {
@@ -724,6 +762,16 @@ font-size: small;
 }
 .tiktokvideo video{
   box-shadow: 0px 0px 10px #4294C3;
+}
+ul li ul.dropdown {
+        width: 90%;
+        border-radius: 15px;
+        margin-left: -30px;
+        text-align: center;
+        background: #fe8040;
+        position: absolute;
+        z-index: 999;
+        display: none;
 }
 }
 
