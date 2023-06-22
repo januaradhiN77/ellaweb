@@ -76,7 +76,7 @@ ul li ul.dropdown li{
 }
 ul li ul.dropdown{
    width: 30%;
-   height: 500%;
+   height: 350%;
    margin-left: -50px;
    transition: all 0.5s;
    border-radius: 15px;
@@ -86,7 +86,8 @@ ul li ul.dropdown{
    display: none;
 }
 ul li ul.dropdown a{
-    font-size: 2rem;
+    font-size: 1rem;
+    margin-top: 20px;
 }
 ul li a:hover{
    transition: all 1s;
