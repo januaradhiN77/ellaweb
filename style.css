@@ -336,6 +336,9 @@ h2 {
   color: #FFFFFF;
   transition: 0.5s;
 }
+.btncenter:not(:hover){
+  transition: 0.5s;
+}
 .btn {
   background: #FFB811;
   display: inline-block;
