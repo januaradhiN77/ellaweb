@@ -314,7 +314,28 @@ h2 {
 
 
 
-
+.centerbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btncenter {
+  text-align: center;
+  background: transparent;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 0.5rem;
+  color: #FFAC00;
+  width: 150px;
+  outline-width: 3px;
+  outline-color: #FFAC00;
+  outline-style: solid;
+}
+.btncenter:hover {
+  background: #FFAC00;
+  color: #FFFFFF;
+  transition: 0.5s;
+}
 .btn {
   background: #FFB811;
   display: inline-block;
