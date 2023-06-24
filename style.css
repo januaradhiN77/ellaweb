@@ -323,16 +323,6 @@ h2 {
   margin-top: 4rem;
 }
 
-.data-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #FFFFFF;
-  height: 200px;
-  border-radius: 0.5rem;
-}
-
 .centerbtn{
   display: flex;
   justify-content: center;
