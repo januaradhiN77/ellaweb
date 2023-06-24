@@ -335,6 +335,8 @@ h2 {
   background: #FFAC00;
   color: #FFFFFF;
   transition: 0.5s;
+  outline-color: #FFFFFF;
+  outline-style: solid;
 }
 .btncenter:not(:hover){
   transition: 0.5s;
@@ -356,6 +358,8 @@ h2 {
 .btncenter2:hover {
   background: #FFAC00;
   color: #FFFFFF;
+  outline-color: #FFFFFF;
+  outline-style: solid;
   transition: 0.5s;
 }
 .btncenter2:not(:hover){
@@ -372,6 +376,8 @@ h2 {
   background: #326085;
   color: #FFFFFF;
   transition: 0.5s;
+  outline-color: #FFFFFF;
+  outline-style: solid;
 }
 .btn:not(:hover){
   transition: 0.5s;
