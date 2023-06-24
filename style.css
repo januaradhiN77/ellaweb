@@ -351,6 +351,9 @@ h2 {
   color: #FFFFFF;
   transition: 0.5s;
 }
+.btn:not(:hover){
+  transition: 0.5s;
+}
 .btnsr {
   background: #FFB811;
   margin-left: 0px;
@@ -374,7 +377,9 @@ h2 {
   color: #FFB811;
   transition: 0.5s;
 }
-
+.btnsr:not(:hover) {
+  transition: 0.5s;
+}
 .data-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, auto));
