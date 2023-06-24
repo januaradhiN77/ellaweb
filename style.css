@@ -586,7 +586,7 @@ h2 {
   .toggle {
     width: 40px;
     height: 40px;
-    background: url(img/menu.png);
+    background: url(menu.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 30px;
@@ -594,7 +594,7 @@ h2 {
   }
 
   .toggle.active {
-    background: url(img/close1.png);
+    background: url(close1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50px;
