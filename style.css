@@ -314,6 +314,25 @@ h2 {
 
 
 
+.tiktok-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  gap: 5rem;
+  background: var(--bg-orencerah);
+  border-radius: 20px;
+  margin-top: 4rem;
+}
+
+.data-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  height: 200px;
+  border-radius: 0.5rem;
+}
+
 .centerbtn{
   display: flex;
   justify-content: center;
