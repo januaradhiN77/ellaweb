@@ -339,6 +339,28 @@ h2 {
 .btncenter:not(:hover){
   transition: 0.5s;
 }
+.btncenter2 {
+
+  text-align: center;
+
+  background: transparent;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 0.5rem;
+  color: #FFAC00;
+  width: 250px;
+  outline-width: 3px;
+  outline-color: #FFAC00;
+  outline-style: solid;
+}
+.btncenter2:hover {
+  background: #FFAC00;
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+.btncenter2:not(:hover){
+  transition: 0.5s;
+}
 .btn {
   background: #FFB811;
   display: inline-block;
