@@ -322,7 +322,11 @@ h2 {
   border-radius: 20px;
   margin-top: 4rem;
 }
-
+.tiktok-box video{
+  outline-color: #FFFFFF;
+  outline-width: 3px;
+  outline-style: solid;
+}
 .centerbtn{
   display: flex;
   justify-content: center;
