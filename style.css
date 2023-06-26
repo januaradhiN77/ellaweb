@@ -597,6 +597,64 @@ h2 {
 .tiktokvideo h4{
   font-size: medium;
 }
+.igaccontainer{
+  justify-content: left;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.igacimage span{
+  font-size: x-large;
+  margin-top: -7px;
+  margin-left: 35px;
+  
+}
+.igaccontainer .igacbox{
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  font-size: 25px;
+  display: flex;
+}
+.igacbox p{
+  font-weight: 600;
+}
+.igaccontainer .igacboxhead{
+  justify-content: left;
+  align-items: left;
+  flex-wrap: nowrap;
+  gap: 5rem;
+  display: flex;
+}
+.igaccontainer .igacimage img{
+  width: 200px;
+  border-radius: 100px;
+}
+.textigtime{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 70px;
+  margin-left: 0px;
+  gap: 5rem;
+}
+.textigbox{
+  display: flex;
+  font-size: 25px;
+  flex-direction: column;
+}
+.textigbox h3{
+  text-align: center;
+}
+.tombolm{
+  background: #00B0FF;
+  color: #FFFFFF;
+  text-align: center;
+  width: 850px;
+  font-size: large;
+  border-radius: 5px;
+  margin-left: -5px;
+}
 @media (max-width: 991px) {
   .menu {
     position: fixed;
@@ -732,33 +790,43 @@ h2 {
   flex-direction: column;
   margin-top: 50px;
 }
+.igacimage span{
+  font-size: x-large;
+  margin-top: -7px;
+  margin-left: 35px;
+  
+}
 .igaccontainer .igacbox{
   justify-content: left;
   align-items: left;
   flex-direction: column;
+  font-size: 25px;
   display: flex;
+}
+.igacbox p{
+  font-weight: 600;
 }
 .igaccontainer .igacboxhead{
   justify-content: left;
   align-items: left;
   flex-wrap: nowrap;
-  gap: 1.5rem;
+  gap: 5rem;
   display: flex;
 }
 .igaccontainer .igacimage img{
-  width: 100px;
-  border-radius: 50px;
+  width: 200px;
+  border-radius: 100px;
 }
 .textigtime{
   display: flex;
   flex-wrap: nowrap;
-  margin-top: 45px;
+  margin-top: 70px;
   margin-left: 0px;
-  gap: 1.5rem;
+  gap: 5rem;
 }
 .textigbox{
   display: flex;
-  font-size: 13px;
+  font-size: 25px;
   flex-direction: column;
 }
 .textigbox h3{
@@ -768,7 +836,7 @@ h2 {
   background: #00B0FF;
   color: #FFFFFF;
   text-align: center;
-  width: 375px;
+  width: 850px;
   font-size: large;
   border-radius: 5px;
   margin-left: -5px;
@@ -859,11 +927,20 @@ font-size: small;
   flex-direction: column;
   margin-top: 50px;
 }
+.igacimage span{
+  font-size: medium;
+  margin-top: -2px;
+  margin-left: 10px;
+}
 .igaccontainer .igacbox{
   justify-content: left;
   align-items: left;
   flex-direction: column;
+  font-size: small;
   display: flex;
+}
+.igacbox p{
+  font-weight: 600;
 }
 .igaccontainer .igacboxhead{
   justify-content: left;
