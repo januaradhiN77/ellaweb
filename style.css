@@ -725,7 +725,54 @@ h2 {
 .tiktokvideo h4{
   font-size: medium;
 }
-
+.igaccontainer{
+  justify-content: left;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.igaccontainer .igacbox{
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  display: flex;
+}
+.igaccontainer .igacboxhead{
+  justify-content: left;
+  align-items: left;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+  display: flex;
+}
+.igaccontainer .igacimage img{
+  width: 100px;
+  border-radius: 50px;
+}
+.textigtime{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 45px;
+  margin-left: 0px;
+  gap: 1.5rem;
+}
+.textigbox{
+  display: flex;
+  font-size: 13px;
+  flex-direction: column;
+}
+.textigbox h3{
+  text-align: center;
+}
+.tombolm{
+  background: #00B0FF;
+  color: #FFFFFF;
+  text-align: center;
+  width: 375px;
+  font-size: large;
+  border-radius: 5px;
+  margin-left: -5px;
+}
 }
 
 @media (max-width: 810px) {
@@ -805,14 +852,58 @@ font-size: small;
 .tiktokvideo video{
   box-shadow: 0px 0px 10px #4294C3;
 }
-
+.igaccontainer{
+  justify-content: left;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
 }
-
+.igaccontainer .igacbox{
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  display: flex;
+}
+.igaccontainer .igacboxhead{
+  justify-content: left;
+  align-items: left;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+  display: flex;
+}
+.igaccontainer .igacimage img{
+  width: 100px;
+  border-radius: 50px;
+}
+.textigtime{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 45px;
+  margin-left: 0px;
+  gap: 1.5rem;
+}
+.textigbox{
+  display: flex;
+  font-size: 13px;
+  flex-direction: column;
+}
+.textigbox h3{
+  text-align: center;
+}
+.tombolm{
+  background: #00B0FF;
+  color: #FFFFFF;
+  text-align: center;
+  width: 375px;
+  font-size: large;
+  border-radius: 5px;
+  margin-left: -5px;
+}
 @media (max-width: 696px) {
   .menu {
     top: 54px;
   }
-
   #home {
     flex-direction: column-reverse;
   }
