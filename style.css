@@ -634,7 +634,7 @@ h2 {
 .textigtime{
   display: flex;
   flex-wrap: nowrap;
-  margin-top: 70px;
+  margin-top: 60px;
   margin-left: 0px;
   gap: 5rem;
 }
@@ -820,7 +820,7 @@ h2 {
 .textigtime{
   display: flex;
   flex-wrap: nowrap;
-  margin-top: 70px;
+  margin-top: 60px;
   margin-left: 0px;
   gap: 5rem;
 }
@@ -956,7 +956,7 @@ font-size: small;
 .textigtime{
   display: flex;
   flex-wrap: nowrap;
-  margin-top: 45px;
+  margin-top: 30px;
   margin-left: 0px;
   gap: 1.5rem;
 }
