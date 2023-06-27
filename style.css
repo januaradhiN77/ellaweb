@@ -655,6 +655,75 @@ h2 {
   border-radius: 5px;
   margin-left: -5px;
 }
+.tiktokcontainerpf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tiktokpfhead{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.tiktokpfhead img{
+  width: 150px;
+  border-radius: 100px;
+}
+.texttiktokpf{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.texttiktokbox{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: xx-large;
+  margin-left: 0px;
+}
+.texttiktokbox h1{
+  font-size: xx-large;
+}
+.texttiktokbox span{
+  color: #FFFFFF91;
+  font-size: large;
+}
+.tiktokpftombol{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FF4141;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 80px;
+  width: 250px;
+}
+.tiktokpftombol a{
+  font-size: large;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.tiktokpftombol:hover{
+  background: #C1C1C1;
+  color: #545454;
+  transition: 0.5s;
+}
+.desktiktok{
+  text-align: center;
+}
+.desktiktok p{
+  font-size: x-large;
+}
+.garis{
+  width: 1px;
+  height: 25px;
+  background: #FFFFFF;
+}
 @media (max-width: 991px) {
   .menu {
     position: fixed;
@@ -1114,6 +1183,7 @@ font-size: small;
   width: 1px;
   height: 25px;
   background: #FFFFFF;
+}
 }
 @media (max-width: 696px) {
   .menu {
