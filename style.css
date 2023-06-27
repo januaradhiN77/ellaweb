@@ -841,6 +841,75 @@ h2 {
   border-radius: 5px;
   margin-left: -5px;
 }
+.tiktokcontainerpf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tiktokpfhead{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.tiktokpfhead img{
+  width: 150px;
+  border-radius: 100px;
+}
+.texttiktokpf{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.texttiktokbox{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: xx-large;
+  margin-left: 0px;
+}
+.texttiktokbox h1{
+  font-size: xx-large;
+}
+.texttiktokbox span{
+  color: #FFFFFF91;
+  font-size: large;
+}
+.tiktokpftombol{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FF4141;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 80px;
+  width: 250px;
+}
+.tiktokpftombol a{
+  font-size: large;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.tiktokpftombol:hover{
+  background: #C1C1C1;
+  color: #545454;
+  transition: 0.5s;
+}
+.desktiktok{
+  text-align: center;
+}
+.desktiktok p{
+  font-size: x-large;
+}
+.garis{
+  width: 1px;
+  height: 25px;
+  background: #FFFFFF;
+}
 }
 
 @media (max-width: 810px) {
@@ -976,6 +1045,75 @@ font-size: small;
   font-size: large;
   border-radius: 5px;
   margin-left: -5px;
+}
+.tiktokcontainerpf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tiktokpfhead{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.tiktokpfhead img{
+  width: 100px;
+  border-radius: 50px;
+}
+.texttiktokpf{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.texttiktokbox{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: medium;
+  margin-left: 0px;
+}
+.texttiktokbox h1{
+  font-size: large;
+}
+.texttiktokbox span{
+  color: #FFFFFF91;
+  font-size: small;
+}
+.tiktokpftombol{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FF4141;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+}
+.tiktokpftombol a{
+  font-size: small;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.tiktokpftombol:hover{
+  background: #C1C1C1;
+  color: #545454;
+  transition: 0.5s;
+}
+.desktiktok{
+  text-align: center;
+}
+.desktiktok p{
+  font-size: medium;
+}
+.garis{
+  width: 1px;
+  height: 25px;
+  background: #FFFFFF;
 }
 @media (max-width: 696px) {
   .menu {
