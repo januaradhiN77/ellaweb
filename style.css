@@ -193,9 +193,16 @@ h2 {
 
 .home-content {
   display: grid;
+  flex-direction: column;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   margin-left: 0rem;
+   justify-content: center;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto auto;
   margin: 50px 0 0 0;
+  
 }
 
 .box {
@@ -797,11 +804,12 @@ h2 {
     width: 350px;
     height: 400px;
   }
-    .home-content {
+   .home-content {
+   flex-wrap: wrap;
+   display: flex;
    align-items: center;
    text-align: center;
-   
-   margin-left: -6rem;
+   margin-left: 0rem;
    justify-content: center;
 }
   .box {
@@ -1004,12 +1012,15 @@ h2 {
 
   .home-content {
    align-items: center;
+   flex-direction: column;
+   display: flex;
    text-align: center;
-   margin-left: 2rem;
+   margin-left: 0rem;
    justify-content: center;
 }
 
 .box {
+  display: flex;
   align-items: center;    
   justify-content: center;
   width: 80%;
