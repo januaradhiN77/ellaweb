@@ -728,7 +728,7 @@ h2 {
   .menu {
     position: fixed;
     top: 68px;
-    left: -100%;
+    left: 100%;
     display: block;
     padding: 50px 50px;
     text-align: center;
