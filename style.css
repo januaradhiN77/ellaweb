@@ -16,7 +16,7 @@
 
 body,
 html {
-  background: #1a112f;
+  background: #42445A;
   color: #fff;
 }
 
@@ -742,7 +742,7 @@ h2 {
     text-align: center;
     width: 100%;
     height: 100vh;
-    background: #0D4D94BF;
+    background: #1a112f;
     transition: 0.5s ease;
     z-index: 999;
   }
