@@ -50,7 +50,11 @@ nav {
 ul {
   display: flex;
 }
-
+.select{
+      color: #FFFFFF;
+      background: #fe8040;
+      border-radius: 20px;
+}
 ul li a {
   padding: 10px 20px;
   color: #fff;
