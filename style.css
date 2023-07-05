@@ -116,18 +116,24 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-
 .home-text h1 {
   font-size: 3rem;
   margin: 5px 0 10px;
 }
-
+.home-text a{
+  text-align: center;
+  align-items: center;
+}
 .home-text p {
   font-size: 0.9rem;
   padding-bottom: 1.5rem;
   font-weight: 400;
 }
-
+.scrollcenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .home-img {
   width: 450px;
   height: 500px;
@@ -1197,6 +1203,7 @@ font-size: small;
   height: 25px;
   background: #FFFFFF;
 }
+
 }
 @media (max-width: 696px) {
   .menu {
