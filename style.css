@@ -434,11 +434,12 @@ h2 {
 .btnsr:not(:hover) {
   transition: 0.5s;
 }
+
 .data-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, auto));
   gap: 1.5rem;
-  background: var(--bg-orencerah);
+  
   border-radius: 20px;
   margin-top: 4rem;
 }
@@ -450,15 +451,8 @@ h2 {
   justify-content: center;
   color: #FFFFFF;
   height: 200px;
-  border-radius: 0.5rem;
-}
-.data-box img {
-  width: 10px;
-  height: 10px;
-  border: 1px solid #1a112f;
-  object-fit: contain;
-  border-radius: 50%;
-  margin-bottom: 0.6rem;
+  border-radius: 1.5rem;
+  background: #FF9E0D;
 }
 
 .data-box p {
@@ -468,6 +462,9 @@ h2 {
 }
 .data-box h1{
   font-size: xx-large; 
+}
+.data-box h2{
+  color: #FFF600;
 }
 .showroompf{
   flex-direction: column;
