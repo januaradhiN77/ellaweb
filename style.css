@@ -116,6 +116,10 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+.home-text{
+  display: flex;
+  flex-direction: column; 
+}
 .home-text h1 {
   font-size: 3rem;
   margin: 5px 0 10px;
