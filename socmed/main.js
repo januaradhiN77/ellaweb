@@ -16,5 +16,5 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-img , .heading , .home-content , .headig , .ig-container , .tiktok , .twitter , .ig-box , .tiktok-box' , { origin: 'bottom' });
-ScrollReveal().reveal('.tiktokcontainerpf', { origin: 'top' });
-ScrollReveal().reveal('.igaccontainer', { origin: 'right' });
+ScrollReveal().reveal('.tiktokcontainerpf , .igaccontainer', { origin: 'top' });
+ScrollReveal().reveal('.h', { origin: 'right' });
