@@ -743,12 +743,12 @@ h2 {
 .sr-data-follower {
         display: flex;
         flex-wrap: wrap;
-        gap: 6.5rem;
+        gap: 4.6rem;
 }
 .sr-data-nextlive {
         display: flex;
         flex-wrap: wrap;
-        gap: 8.3rem;
+        gap: 8rem;
 }
 .button-sr{
   display: flex;
