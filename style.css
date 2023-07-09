@@ -738,17 +738,17 @@ h2 {
 .sr-data-ranking{
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 3rem auto;
 }
 .sr-data-follower {
         display: flex;
         flex-wrap: wrap;
-        gap: 4.6rem;
+        gap: 4.6rem auto;
 }
 .sr-data-nextlive {
         display: flex;
         flex-wrap: wrap;
-        gap: 8rem;
+        gap: 8rem auto;
 }
 .button-sr{
   display: flex;
@@ -1328,17 +1328,17 @@ font-size: small;
 .sr-data-ranking{
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 3rem auto;
 }
 .sr-data-follower {
         display: flex;
         flex-wrap: wrap;
-        gap: 4rem;
+        gap: 4rem auto;
 }
 .sr-data-nextlive {
         display: flex;
         flex-wrap: wrap;
-        gap: 6.3rem;
+        gap: 6.3rem auto;
 }
 .button-sr{
   display: flex;
