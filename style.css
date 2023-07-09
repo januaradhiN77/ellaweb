@@ -1060,21 +1060,6 @@ h2 {
   font-size: 1.9rem;
   font-weight: 550;
 }
-.sr-data-ranking{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3rem;
-}
-.sr-data-follower {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 6.5rem;
-}
-.sr-data-nextlive {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8.3rem;
-}
 .button-sr{
   display: flex;
   flex-wrap: wrap;
@@ -1348,12 +1333,12 @@ font-size: small;
 .sr-data-follower {
         display: flex;
         flex-wrap: wrap;
-        gap: 5.4rem;
+        gap: 4rem;
 }
 .sr-data-nextlive {
         display: flex;
         flex-wrap: wrap;
-        gap: 6.4rem;
+        gap: 6.3rem;
 }
 .button-sr{
   display: flex;
