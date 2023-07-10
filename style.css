@@ -1328,12 +1328,12 @@ font-size: small;
 .sr-data-ranking{
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 3rem auto;
 }
 .sr-data-follower {
         display: flex;
         flex-wrap: wrap;
-        gap: 4rem auto;
+        gap: 4rem;
 }
 .sr-data-nextlive {
         display: flex;
