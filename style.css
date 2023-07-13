@@ -1121,7 +1121,7 @@ h2 {
   gap: 2rem;
   margin-right: 0px;
   margin-top: 30px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
   padding: 0 -70px;
 }
 .timestamp{
@@ -1419,6 +1419,27 @@ font-size: small;
   text-align: center;
   font-size: 1rem;
   color: #FFFFFF;
+}
+.custom-button-center{
+  background: #FFAC0C;
+  border-radius: 20px;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.custom-button-center a{
+  text-align: center;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+.buttoncentert{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .timeline-container{
   margin: 0 0px 0 0px;
