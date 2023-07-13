@@ -1083,6 +1083,27 @@ h2 {
   font-size: 1.4rem;
   color: #FFFFFF;
 }
+.custom-button-center{
+  background: #FFAC0C;
+  border-radius: 20px;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.custom-button-center a{
+  text-align: center;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+.buttoncentert{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .timeline-container{
   margin: 0 0px 0 0px;
   background: #0000009E;
