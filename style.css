@@ -772,6 +772,7 @@ h2 {
   font-size: 1.4rem;
   color: #FFFFFF;
 }
+
 @media (max-width: 991px) {
   .menu {
     position: fixed;
@@ -1362,6 +1363,63 @@ font-size: small;
   font-size: 1rem;
   color: #FFFFFF;
 }
+.timeline-container{
+  margin: 0 0px 0 0px;
+  background: #0000009E;
+  border-radius: 20px;
+}
+.timeline-container h1{
+  text-align: center;
+  color: #FFAC0C;
+  margin-top: -20px;
+}
+.timeline::webkit-scrollbar{
+  height: 4px;
+  border-radius: 10px;
+  background: transparent;
+}
+.timeline::-webkit-scrollbar-thumb{
+  height: 4px;
+  border-radius: 10px;
+  background: transparent;
+}
+.timeline{
+  display: flex;
+  overflow: auto;
+  flex-direction: row;
+  gap: 0rem;
+  scroll-behavior: smooth;
+  padding-left: 0px;
+}
+ .timelinebox{
+  margin: auto;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 150px;
+  gap: 2rem;
+  margin-right: 0px;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  padding: 0 -70px;
+}
+.timestamp{
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+}
+.timestamp span{
+  font-style: large;
+  font-weight: 700; 
+}
+.status{
+  border-top: 5px solid #FFA800;
+}
+.status span{
+  text-align: center;
+}
 @media (max-width: 696px) {
   .menu {
     top: 54px;
@@ -1443,4 +1501,5 @@ font-size: small;
   .home-text h1 {
     font-size: 1.8rem;
   }
+}
 }
