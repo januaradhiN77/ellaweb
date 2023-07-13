@@ -1109,10 +1109,14 @@ h2 {
   background: #0000009E;
   border-radius: 20px;
 }
-.timeline-container h1{
-  text-align: center;
+.text-timeline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
+.text-timeline h1{
   color: #FFAC0C;
-  margin-top: -20px;
 }
 .timeline::webkit-scrollbar{
   height: 4px;
@@ -1141,8 +1145,7 @@ h2 {
   height: 150px;
   gap: 2rem;
   margin-right: 0px;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 70px;
   padding: 0 -70px;
 }
 .timestamp{
@@ -1150,16 +1153,27 @@ h2 {
   width: 150px;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.timestamp img{
+  width: 23px;
+  margin-top: 17px;
+  z-index: 2;
 }
 .timestamp span{
   font-style: large;
-  font-weight: 700; 
+  font-weight: 700;
+  margin-top: -20px;
 }
 .status{
   border-top: 5px solid #FFA800;
+  margin-top: -46px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
 }
 .status span{
-  text-align: center;
+  margin-top: 20px; 
 }
 }
 
@@ -1467,10 +1481,14 @@ font-size: small;
   background: #0000009E;
   border-radius: 20px;
 }
-.timeline-container h1{
-  text-align: center;
+.text-timeline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+}
+.text-timeline h1{
   color: #FFAC0C;
-  margin-top: -20px;
 }
 .timeline::webkit-scrollbar{
   height: 4px;
@@ -1499,7 +1517,7 @@ font-size: small;
   height: 150px;
   gap: 2rem;
   margin-right: 0px;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 12px;
   padding: 0 -70px;
 }
