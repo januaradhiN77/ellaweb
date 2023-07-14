@@ -26,7 +26,7 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-img , .heading , .home-content , .headig , .ig-container , .tiktok , .twitter , .showroompf' , { origin: 'bottom' });
-ScrollReveal().reveal('.data', { origin: 'top' });
-ScrollReveal().reveal('.centerbtn', { origin: 'left' });
+ScrollReveal().reveal('.data , .timelineella , .timeline-container', { origin: 'top' });
+ScrollReveal().reveal('.centerbtn ', { origin: 'left' });
 
 
