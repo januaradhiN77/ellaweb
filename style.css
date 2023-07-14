@@ -863,6 +863,7 @@ h2 {
 }
 .status span{
   margin-top: 20px; 
+  text-align: center; 
 }
 .timelineella{
   display: flex;
