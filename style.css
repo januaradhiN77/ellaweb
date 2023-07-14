@@ -864,6 +864,35 @@ h2 {
 .status span{
   margin-top: 20px; 
 }
+.timelineella{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.timelineella h1{
+  color: #FFAC0C;
+  font-size: xx-large;
+}
+.tahun{
+  background: #FFAC0C;
+  width: 100px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tahun span{
+  font-size: x-large;
+  text-align: center;
+  font-weight: 650;
+}
+.isi{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 @media (max-width: 991px) {
   .menu {
     position: fixed;
