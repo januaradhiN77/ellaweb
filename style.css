@@ -839,7 +839,7 @@ h2 {
 }
 .timestamp{
   display: flex;
-  width: 150px;
+  width: 190px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -1271,7 +1271,7 @@ h2 {
 }
 .timestamp{
   display: flex;
-  width: 150px;
+  width: 190px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -1673,7 +1673,7 @@ font-size: small;
 }
 .timestamp{
   display: flex;
-  width: 150px;
+  width: 190px;
   justify-content: center;
   align-items: center;
 }
