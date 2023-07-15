@@ -797,6 +797,8 @@ h2 {
   margin: 0 0px 0 0px;
   background: #0000009E;
   border-radius: 20px;
+  width: 1170px;
+  margin-left: 7%;
 }
 .text-timeline{
   display: flex;
@@ -1229,6 +1231,8 @@ h2 {
   margin: 0 0px 0 0px;
   background: #0000009E;
   border-radius: 20px;
+  width: 1160px;
+  margin-left: 0%;
 }
 .text-timeline{
   display: flex;
