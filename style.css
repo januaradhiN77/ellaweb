@@ -1629,6 +1629,10 @@ font-size: small;
 .timeline-container{
   margin: 0 0px 0 0px;
   background: #0000009E;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
   border-radius: 20px;
 }
 .text-timeline{
