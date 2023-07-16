@@ -210,7 +210,7 @@ h2 {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
   align-items: center;
 }
 .box{
@@ -241,10 +241,7 @@ h2 {
   height: 300px;
   width: 550px;
 }
-.imagepf {
-  display: flex;
-  margin-top: -50px;
-}
+
 .imagepf img {
   width: 200px;
   border-radius: 20px;
