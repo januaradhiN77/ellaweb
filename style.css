@@ -249,7 +249,7 @@ h2 {
   margin-left: 0px;
   height: 300px;
   width: 550px;
-  margin-right: auto;
+  margin-left: -50px;
 }
 
 .imagepf img {
