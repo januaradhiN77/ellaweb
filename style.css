@@ -226,7 +226,7 @@ h2 {
   width: 100%;
 }
 .box h3{
-  font-size: large;
+  font-size: x-large;
   width: 100%;
 }
 .box h5 {
@@ -261,15 +261,8 @@ h2 {
   box-shadow: 0px 0px -5px #4294C3;
 }
 
-.box span {
-  font-size: 1.1rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
 .box p {
-  font-size: x-large;
+  font-size: xx-large;
   width: 50px;
   text-align: left;
 }
