@@ -212,6 +212,7 @@ h2 {
   justify-content: center;
   gap: 4rem;
   align-items: center;
+  margin-top: -50%;
 }
 .box{
   display: flex;
