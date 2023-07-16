@@ -229,6 +229,9 @@ h2 {
   font-size: x-large;
   width: 100%;
 }
+.box p {
+  font-size: 20rem;
+}
 .box h5 {
   width: 100%;
   margin-right: auto;
@@ -259,12 +262,6 @@ h2 {
   transform: scale(1);
   transition: all 0.5s ease;
   box-shadow: 0px 0px -5px #4294C3;
-}
-
-.box p {
-  font-size: 1rem;
-  width: 50px;
-  text-align: left;
 }
 .headig p {
   text-transform: uppercase;
