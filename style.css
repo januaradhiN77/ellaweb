@@ -242,7 +242,9 @@ h2 {
   height: 300px;
   width: 550px;
 }
-
+.imagepf{
+  margin-top: -20px;
+}
 .imagepf img {
   width: 200px;
   border-radius: 20px;
