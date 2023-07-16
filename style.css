@@ -225,6 +225,12 @@ h2 {
   flex-direction: column;
   gap: 2rem;
 }
+.profileella h3{
+  font-size: xx-large;
+}
+.profileella p{
+  font-size: x-large;
+}
 .headig{
   display: flex;
   flex-direction: column;
