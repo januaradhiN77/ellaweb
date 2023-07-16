@@ -1000,6 +1000,15 @@ h2 {
   width: 100%;
   margin-right: auto;
 }
+.profileella{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 0px;
+  margin-left: 0px;
+}
 .scella {
   display: flex;
   flex-wrap: wrap;
@@ -1421,6 +1430,15 @@ text-align: left;
 .box h5 {
   width: 50%;
   margin-right: auto;
+}
+.profileella{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  gap: 1rem;
+  margin-right: auto;
+  margin-left: -10px;
 }
 .scella {
   display: flex;
