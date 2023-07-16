@@ -977,6 +977,7 @@ h2 {
    text-align: center;
    margin-left: 0rem;
    justify-content: center;
+   margin-top: 0px;
 }
   .box {
   display: flex;
@@ -984,6 +985,7 @@ h2 {
   justify-content: center;
   flex-direction: column;
   gap: 1rem;
+  margin-top: 0px;
 }
 .box p{
   font-size: xx-large;
@@ -1045,6 +1047,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 0px;
 }
 .videoprofile iframe{
   box-shadow: 0px 0px 10px #4294C3;
@@ -1404,6 +1407,7 @@ h2 {
    display: flex;
    margin-left: 0rem;
    justify-content: center;
+   margin-top: 0px;
 }
 .box {
   display: flex;
@@ -1413,6 +1417,7 @@ h2 {
   width: 80%;
   flex-direction: column;
   gap: 1rem;
+  margin-top: 0px;
 }
 .box span{
 font-size: small;
@@ -1476,6 +1481,7 @@ text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 0px;
 }
 .videoprofile iframe{
   height: 200px;
