@@ -212,7 +212,7 @@ h2 {
   justify-content: center;
   gap: 4rem;
   align-items: center;
-  margin-top: -40%;
+  margin-top: -30%;
 }
 .box{
   display: flex;
@@ -220,7 +220,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  margin-top: 40%;
+  margin-top: 30%;
 }
 .profileella{
   display: flex;
