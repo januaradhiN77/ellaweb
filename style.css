@@ -996,9 +996,7 @@ h2 {
   width: 100%;
 }
 .box h3{
-
-  font-size: large;
-
+  font-size: xx-large;
   width: 100%;
 }
 .box h5 {
@@ -1426,7 +1424,7 @@ font-size: small;
   width: 50%;
 }
 .box h3{
-font-size: large;
+font-size: xx-large;
 text-align: left;
   width: 100%;
 }
