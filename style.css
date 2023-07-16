@@ -241,11 +241,9 @@ h2 {
   height: 300px;
   width: 550px;
 }
-.imagepf{
-  margin-top: -50px;
-}
 .imagepf img {
   width: 200px;
+  margin-top: -50px;
   border-radius: 20px;
 }
 .imagepf img:hover{
