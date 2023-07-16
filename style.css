@@ -229,8 +229,8 @@ h2 {
 }
 .videoprofile{
   display: flex;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
 }
 .videoprofile iframe{
   box-shadow: 0px 0px 10px #4294C3;
@@ -516,20 +516,26 @@ h2 {
   color: #fe8040;
 }
 .scella {
-
   display: flex;
-
-  height: 100px;
-  align-items: left;
-  justify-content: left;
-  padding: 5px 0;
-  margin-top: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .scella i {
+  display: flex;
+  background: #FFAD11;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
   color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
   font-size: 2rem;
-  margin-right: 1rem;
+  text-align: center;
+  margin-right: auto;
 }
 .scella i:hover {
   color: #fe8040;
@@ -980,6 +986,8 @@ h2 {
   display: flex;
   align-items: center;    
   justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
 }
 .box span{
   font-size: large;
@@ -993,12 +1001,43 @@ h2 {
 }
 .box h5 {
   width: 100%;
+  margin-right: auto;
+}
+.scella {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.scella i {
+  display: flex;
+  background: #FFAD11;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  text-align: center;
+  margin-right: auto;
+}
+.scella i:hover {
+  color: #fe8040;
 }
 
 .box img {
   width: 150px;
   border-radius: 20px;
   margin-bottom: 10px;
+}
+.videoprofile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .videoprofile iframe{
   box-shadow: 0px 0px 10px #4294C3;
@@ -1356,42 +1395,77 @@ h2 {
    align-items: center;
    flex-direction: column;
    display: flex;
-   text-align: center;
    margin-left: 0rem;
    justify-content: center;
 }
 
 .box {
   display: flex;
-  align-items: center;    
-  justify-content: center;
+  align-items: left;    
+  justify-content: left;
+  text-align: left;
   width: 80%;
+  flex-direction: column;
+  gap: 1rem;
 }
 .box span{
 font-size: small;
   width: 50%;
 }
 .box h3{
-font-size: small;
-  
-
-  width: 80%;
+font-size: large;
+text-align: left;
+  width: 100%;
 }
 .box p {
- font-size: xx-small;
+ font-size: large;
  width: 50px;
+ text-align: left; 
 }
 .box h5 {
   width: 50%;
+  margin-right: auto;
 }
+.scella {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  
+}
+
+.scella i {
+  display: flex;
+  background: #FFAD11;
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  text-align: center;
+  margin-right: auto;
+}
+.scella i:hover {
+  color: #fe8040;
+}
+
 #F4F4F4
 .box img {
   width: 150px;
   border-radius: 20px;
   margin-bottom: 10px;
+  
+}
+.videoprofile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .videoprofile iframe{
-  margin-left: 0px;
   height: 200px;
   box-shadow: 0px 0px 10px #4294C3;
   width: 350px;
