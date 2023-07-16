@@ -222,7 +222,7 @@ h2 {
   gap: 1rem;
 }
 .box span{
-  font-size: large;
+  font-size: x-large;
   width: 100%;
 }
 .box h3{
@@ -262,7 +262,7 @@ h2 {
 }
 
 .box p {
-  font-size: 20rem;
+  font-size: 1rem;
   width: 50px;
   text-align: left;
 }
