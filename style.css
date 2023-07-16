@@ -231,7 +231,7 @@ h2 {
 }
 
 .imagepf img {
-  width: 150px;
+  width: 250px;
   border-radius: 20px;
 }
 .imagepf img:hover{
@@ -1016,10 +1016,9 @@ h2 {
   color: #fe8040;
 }
 
-.box img {
+.imagepf img {
   width: 150px;
   border-radius: 20px;
-  margin-bottom: 10px;
 }
 .videoprofile{
   display: flex;
@@ -1448,12 +1447,9 @@ text-align: left;
   color: #fe8040;
 }
 
-#F4F4F4
-.box img {
-  width: 150px;
-  border-radius: 20px;
-  margin-bottom: 10px;
-  
+.imagepf img {
+        width: 150px;
+        border-radius: 20px;
 }
 .videoprofile{
   display: flex;
