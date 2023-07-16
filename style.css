@@ -225,17 +225,16 @@ h2 {
   width: 550px;
 }
 
-.box img {
+.imagepf img {
   width: 150px;
   border-radius: 20px;
-  margin-bottom: 10px;
 }
-.box img:hover{
+.imagepf img:hover{
   transform: scale(1.1);
   transition: all 0.5s ease;
   box-shadow: 0px 0px 10px #4294C3;
 }
-.box img:not(:hover){
+.imagepf img:not(:hover){
   transform: scale(1);
   transition: all 0.5s ease;
   box-shadow: 0px 0px -5px #4294C3;
