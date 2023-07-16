@@ -986,6 +986,9 @@ h2 {
   flex-direction: column;
   gap: 1rem;
 }
+.box p{
+  font-size: xx-large;
+}
 .box span{
   font-size: large;
   width: 100%;
